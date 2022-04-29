@@ -1,0 +1,5 @@
+@mixin button($color) {
+    background-color: lighten($color, 15.00%);
+    transition: 0.5s;
+}
+

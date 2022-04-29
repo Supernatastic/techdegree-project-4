@@ -7,9 +7,11 @@
     text-transform: uppercase;
     border-radius: 5px;
   }
+
+  
   
   .default {
-    background-color: #51ddfc;
+    background-color: $color1;    
   }
   
   .error {
@@ -26,4 +28,26 @@
   
   .warning {
     background-color: #fd7856;
+  }
+
+  // hover effects _________________________ 
+
+  .default:hover {
+    @include button($color1);
+  }
+
+  .success:hover {
+    @include button(#63cc82);
+  }
+
+  .error:hover {
+    @include button(#e4757a);
+  }
+
+  .warning:hover {
+    @include button(#fd7856);
+  }
+
+  .info:hover {
+    @include button(#927bc1);
   }

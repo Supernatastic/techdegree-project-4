@@ -28,6 +28,31 @@
   background-color: #fd7856;
 }
 
+.default:hover {
+  background-color: #9cecfd;
+  transition: 0.5s;
+}
+
+.success:hover {
+  background-color: #9ddfb0;
+  transition: 0.5s;
+}
+
+.error:hover {
+  background-color: #f1b5b8;
+  transition: 0.5s;
+}
+
+.warning:hover {
+  background-color: #feb4a2;
+  transition: 0.5s;
+}
+
+.info:hover {
+  background-color: #bdafd9;
+  transition: 0.5s;
+}
+
 .form {
   flex-basis: 100%;
 }
@@ -133,8 +158,7 @@
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out, 
- color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
 .nav-link:hover {
